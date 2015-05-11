@@ -22,7 +22,6 @@ public class Prova {
     public void preInit(FMLPreInitializationEvent e)
     {
         ConfigurationHandler.init(e.getSuggestedConfigurationFile());
-        //prova prova prova
     }
 
     @Mod.EventHandler
