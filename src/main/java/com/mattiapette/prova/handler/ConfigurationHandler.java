@@ -1,4 +1,4 @@
-package com.mattiapette.prova.configuration;
+package com.mattiapette.prova.handler;
 
 import net.minecraftforge.common.config.Configuration;
 
@@ -6,18 +6,20 @@ import java.io.File;
 
 public class ConfigurationHandler
 {
+    public static Configuration configuration;
+
     public static void init(File configFile)
     {
         //create a config object from the given config file
-        Configuration config= new Configuration(configFile);
+        configuration= new Configuration(configFile);
         boolean configValue=false;
         try
         {
             //load the configuration
-            config.load();
+            configuration.load();
 
             //read the proprieties
-            configValue=config.get("la mia prima categoria! posso cambiarla!", "configValue", true, "this is an example").getBoolean(true);
+            configValue=configuration.get("la mia prima categoria! posso cambiarla!", "configValue", true, "this is an example").getBoolean(true);
         }
         catch (Exception e)
         {
@@ -25,8 +27,11 @@ public class ConfigurationHandler
         }
         finally
         {
-            //save the config file
-            config.save();
+           if(configuration.hasChanged())
+           {
+               //se è cambiato, salva il file
+                configuration.save();
+           }
         }
         System.out.println(configValue);
 

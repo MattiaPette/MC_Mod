@@ -1,6 +1,6 @@
 package com.mattiapette.prova;
 
-import com.mattiapette.prova.configuration.ConfigurationHandler;
+import com.mattiapette.prova.handler.ConfigurationHandler;
 import com.mattiapette.prova.proxy.Iproxy;
 import com.mattiapette.prova.reference.Reference;
 import cpw.mods.fml.common.Mod;
@@ -22,7 +22,6 @@ public class Prova {
     public void preInit(FMLPreInitializationEvent e)
     {
         ConfigurationHandler.init(e.getSuggestedConfigurationFile());
-        //ciao
     }
 
     @Mod.EventHandler
