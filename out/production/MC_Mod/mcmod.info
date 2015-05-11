@@ -1,0 +1,22 @@
+[
+  {
+    "modid": "Prova",
+    "name": "Mod di prova",
+    "description": "this is my first mod",
+    "version": "",
+    "mcversion": "${minecraft_version}",
+    "url": "",
+    "updateUrl": "",
+    "authorList": [
+      "MattiaPette"
+
+    ],
+    "credits": "MattiaPette",
+    "logoFile": "",
+    "screenshots": [
+    ],
+    "parent":"",
+    "dependencies": [
+    ]
+  }
+]
