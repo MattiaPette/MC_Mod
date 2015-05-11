@@ -1,5 +1,6 @@
 package com.mattiapette.prova;
 
+import com.mattiapette.prova.configuration.ConfigurationHandler;
 import com.mattiapette.prova.proxy.Iproxy;
 import com.mattiapette.prova.reference.Reference;
 import cpw.mods.fml.common.Mod;
@@ -14,13 +15,13 @@ public class Prova {
     @Mod.Instance(Reference.MOD_ID)
     public static Prova instance;
 
-    @SidedProxy(clientSide = "com.mattiapette.prova.proxy.ClientProxy", serverSide = "com.mattiapette.prova.proxy.ServerProxy")
+    @SidedProxy(clientSide =Reference.CLIENTPROXY, serverSide = Reference.SERVERPROXY)
     public static Iproxy proxy;
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent e)
     {
-        //config items block
+        ConfigurationHandler.init(e.getSuggestedConfigurationFile());
     }
 
     @Mod.EventHandler
