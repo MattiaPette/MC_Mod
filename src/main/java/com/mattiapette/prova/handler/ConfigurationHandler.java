@@ -1,39 +1,39 @@
 package com.mattiapette.prova.handler;
 
+import com.mattiapette.prova.reference.Reference;
+import cpw.mods.fml.client.event.ConfigChangedEvent;
+import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.common.config.Configuration;
 
 import java.io.File;
 
-public class ConfigurationHandler
-{
+public class ConfigurationHandler {
     public static Configuration configuration;
+    public static Boolean testValue = false;
 
     public static void init(File configFile)
     {
         //create a config object from the given config file
-        configuration= new Configuration(configFile);
-        boolean configValue=false;
-        try
+        if (configuration == null)
         {
-            //load the configuration
-            configuration.load();
+            configuration = new Configuration(configFile);
+        }
+    }
 
-            //read the proprieties
-            configValue=configuration.get("la mia prima categoria! posso cambiarla!", "configValue", true, "this is an example").getBoolean(true);
-        }
-        catch (Exception e)
+    public void loadConfiguration()
+    {
+        testValue = configuration.getBoolean("configValue", Configuration.CATEGORY_GENERAL, false, "this is an example");
+        if(configuration.hasChanged())
         {
-            //log the exception
+            configuration.save();
         }
-        finally
-        {
-           if(configuration.hasChanged())
-           {
-               //se è cambiato, salva il file
-                configuration.save();
-           }
-        }
-        System.out.println(configValue);
+    }
 
+    @SubscribeEvent
+    public void onConfigurationChangedEvent(ConfigChangedEvent event) {
+        if (event.modID.equalsIgnoreCase(Reference.MOD_ID))
+        {
+          loadConfiguration();
+        }
     }
 }
