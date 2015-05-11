@@ -3,6 +3,8 @@ package com.mattiapette.prova;
 import com.mattiapette.prova.handler.ConfigurationHandler;
 import com.mattiapette.prova.proxy.Iproxy;
 import com.mattiapette.prova.reference.Reference;
+import com.mattiapette.prova.utility.LogHelper;
+import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
@@ -22,6 +24,7 @@ public class Prova {
     public void preInit(FMLPreInitializationEvent e)
     {
         ConfigurationHandler.init(e.getSuggestedConfigurationFile());
+        FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
     }
 
     @Mod.EventHandler

@@ -17,10 +17,11 @@ public class ConfigurationHandler {
         if (configuration == null)
         {
             configuration = new Configuration(configFile);
+            loadConfiguration();
         }
     }
 
-    public void loadConfiguration()
+    private static void loadConfiguration()
     {
         testValue = configuration.getBoolean("configValue", Configuration.CATEGORY_GENERAL, false, "this is an example");
         if(configuration.hasChanged())
