@@ -1,6 +1,8 @@
 package com.mattiapette.prova.item;
 
+import com.mattiapette.creativeTab.creativeTabProva;
 import com.mattiapette.prova.reference.Reference;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
 
 /**

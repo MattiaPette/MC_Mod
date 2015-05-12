@@ -1,5 +1,6 @@
 package com.mattiapette.prova.item;
 
+import com.mattiapette.creativeTab.creativeTabProva;
 import com.mattiapette.prova.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -15,6 +16,7 @@ public class itemProva extends Item
     public itemProva()
     {
         super();
+        this.setCreativeTab(creativeTabProva.PROVA_TAB);
     }
     @Override
     public String getUnlocalizedName()

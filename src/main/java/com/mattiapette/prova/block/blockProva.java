@@ -1,6 +1,7 @@
 package com.mattiapette.prova.block;
 
 
+import com.mattiapette.creativeTab.creativeTabProva;
 import com.mattiapette.prova.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -14,11 +15,13 @@ public class blockProva extends Block
     public blockProva(Material material)
     {
         super(material);
+        this.setCreativeTab(creativeTabProva.PROVA_TAB);
     }
 
     public blockProva()
     {
         this(Material.rock);
+        this.setCreativeTab(creativeTabProva.PROVA_TAB);
     }
 
     @Override
