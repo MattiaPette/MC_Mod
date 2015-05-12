@@ -1,6 +1,7 @@
 package com.mattiapette.prova;
 
 import com.mattiapette.prova.handler.ConfigurationHandler;
+import com.mattiapette.prova.init.modBlocks;
 import com.mattiapette.prova.init.modItems;
 import com.mattiapette.prova.proxy.Iproxy;
 import com.mattiapette.prova.reference.Reference;
@@ -27,6 +28,7 @@ public class Prova {
         ConfigurationHandler.init(e.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
         modItems.init();
+        modBlocks.init();
     }
 
     @Mod.EventHandler
