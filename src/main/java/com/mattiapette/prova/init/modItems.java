@@ -2,11 +2,10 @@ package com.mattiapette.prova.init;
 
 import com.mattiapette.prova.item.itemBlank;
 import com.mattiapette.prova.item.itemProva;
+import com.mattiapette.prova.reference.Reference;
 import cpw.mods.fml.common.registry.GameRegistry;
 
-/**
- * Created by Mattia on 11/05/2015.
- */
+@GameRegistry.ObjectHolder(Reference.MOD_ID)
 public class modItems
 {
     public static final itemProva blank = new itemBlank();

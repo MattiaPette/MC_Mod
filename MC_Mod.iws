@@ -2,24 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0a3790e-cd4e-49f5-a88b-1f8397029974" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mattiapette/prova/block/blockFlag.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mattiapette/prova/block/blockProva.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mattiapette/prova/init/modBlocks.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2015-05-11-1.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2015-05-11-1.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2015-05-11-2.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2015-05-11-2.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2015-05-11-3.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2015-05-11-3.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2015-05-11-4.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2015-05-11-4.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2015-05-11-5.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2015-05-11-5.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2015-05-11-6.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2015-05-11-6.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MC_Mod/com/mattiapette/prova/Prova.class" afterPath="$PROJECT_DIR$/out/production/MC_Mod/com/mattiapette/prova/Prova.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MC_Mod.iws" afterPath="$PROJECT_DIR$/MC_Mod.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mattiapette/prova/Prova.java" afterPath="$PROJECT_DIR$/src/main/java/com/mattiapette/prova/Prova.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/prova/lang/en_US.lang" afterPath="$PROJECT_DIR$/src/main/resources/assets/prova/lang/en_US.lang" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-1.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-1.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-2.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-2.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-3.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-3.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-client-latest.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-client-latest.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/fml-junk-earlystartup.log" afterPath="$PROJECT_DIR$/eclipse/logs/fml-junk-earlystartup.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/latest.log" afterPath="$PROJECT_DIR$/eclipse/logs/latest.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mattiapette/prova/init/modBlocks.java" afterPath="$PROJECT_DIR$/src/main/java/com/mattiapette/prova/init/modBlocks.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mattiapette/prova/init/modItems.java" afterPath="$PROJECT_DIR$/src/main/java/com/mattiapette/prova/init/modItems.java" />
     </list>
     <ignored path="MC_Mod.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,10 +65,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Prova.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Prova.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mattiapette/prova/Prova.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2861357">
+            <state vertical-scroll-proportion="0.0">
               <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -143,21 +129,21 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mattiapette/prova/init/modBlocks.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#299#300#0" expanded="true" />
-                <element signature="e#354#355#0" expanded="true" />
+                <element signature="e#394#395#0" expanded="true" />
+                <element signature="e#449#450#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="modItems.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="modItems.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mattiapette/prova/init/modItems.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.22713864">
+              <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -204,13 +190,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mattiapette/prova/utility/LogHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mattiapette/prova/handler/ConfigurationHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mattiapette/prova/item/itemBlank.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mattiapette/prova/init/modItems.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mattiapette/prova/item/itemProva.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mattiapette/prova/block/blockProva.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mattiapette/prova/block/blockFlag.java" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/prova/lang/en_US.lang" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mattiapette/prova/init/modBlocks.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mattiapette/prova/Prova.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mattiapette/prova/init/modBlocks.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mattiapette/prova/init/modItems.java" />
       </list>
     </option>
   </component>
@@ -290,32 +276,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="prova" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MC_Mod" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MC_Mod" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mattiapette" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="prova" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="proxy" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -840,7 +800,13 @@
       <option name="project" value="LOCAL" />
       <updated>1431379114138</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="added the block package and set up the constructor, the blocks works perfectly">
+      <created>1431449036962</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1431449036962</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -894,7 +860,8 @@
     <MESSAGE value="fixed the configuration handler, no config were loaded" />
     <MESSAGE value="first item with unlocalized name and a texture. name the texture with the same name of the item and it will automatically take the image in the textures folder" />
     <MESSAGE value="update the textures and basic lang file" />
-    <option name="LAST_COMMIT_MESSAGE" value="update the textures and basic lang file" />
+    <MESSAGE value="added the block package and set up the constructor, the blocks works perfectly" />
+    <option name="LAST_COMMIT_MESSAGE" value="added the block package and set up the constructor, the blocks works perfectly" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1170,28 +1137,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mattiapette/prova/init/modItems.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mattiapette/prova/init/modBlocks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mattiapette/prova/block/blockProva.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1208,8 +1153,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mattiapette/prova/Prova.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2861357">
+        <state vertical-scroll-proportion="0.0">
           <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mattiapette/prova/init/modBlocks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mattiapette/prova/init/modItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22713864">
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
