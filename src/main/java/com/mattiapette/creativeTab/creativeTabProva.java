@@ -7,7 +7,7 @@ import net.minecraft.item.Item;
 
 public class creativeTabProva
 {
-    public static final CreativeTabs PROVA_TAB = new CreativeTabs(Reference.MOD_ID)
+    public static final CreativeTabs PROVA_TAB = new CreativeTabs(Reference.MOD_ID.toLowerCase())
     {
         @Override
         public Item getTabIconItem()
@@ -15,11 +15,6 @@ public class creativeTabProva
             return modItems.blank;
         }
 
-        @Override
-        public String getTranslatedTabLabel()
-        {
-            return "Prova";
-        }
     };
 
 }
